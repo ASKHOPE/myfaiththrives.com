@@ -3,79 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myfaiththrives</title>
+    <title>MyFaithThrives</title>
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
 </head>
 <body>
-    <header>
-        <h1>myfaiththrives</h1>
-        <nav>
-            <ul>
+<header>
+    <div class="header-container">
+        <h1 class="logo">MyFaithThrives</h1>
+        <button class="hamburger" aria-label="Toggle Navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="navbar">
+            <ul class="nav-menu">
                 <li><a href="#books">Books</a></li>
                 <li><a href="#art">Art</a></li>
                 <li><a href="#photo-albums">Photo Albums</a></li>
                 <li><a href="#clothes">Clothes</a></li>
                 <li><a href="#jewelry">Jewelry</a></li>
-
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <main>
-        <section id="books" class="category">
-            <h2>Books</h2>
-            <div class="product">
-                <img src="placeholder-book.jpg" alt="Book 1">
-                <h3>Book Title 1</h3>
-                <p>Description of book 1.</p>
-                <a href="mailto:youremail@example.com?subject=Inquiry about Book 1">Inquire</a>
-            </div>
-            </section>
+<main>
+    <div class="coming-soon">
+        <h3>🌿 Coming Soon 🌿</h3>
+        <p class="scripture">"The Lord is good to those whose hope is in Him, to the one who seeks Him." <br> — Lamentations 3:25</p>
+        <p>Something wonderful is on its way. Stay expectant, stay hopeful. His plans are greater than we can imagine.</p>
+<br>
+        <p>Follow us on social media & show your support</p>
+        <div class="social-icons">
+<!--            <a href="https://www.facebook.com/profile.php?id=61573263993842" target="_blank" class="social-btn facebook" aria-label="Facebook">-->
+<!--                <i class="fab fa-facebook-f"></i>-->
+<!--            </a>-->
 
-        <section id="art" class="category">
-            <h2>Art</h2>
-            <div class="product">
-                <img src="placeholder-art.jpg" alt="Art 1">
-                <h3>Art Piece Title 1</h3>
-                <p>Description of art piece 1.</p>
-                 <a href="mailto:youremail@example.com?subject=Inquiry about Art 1">Inquire</a>
-            </div>
+            <a href="https://www.tiktok.com/@user8269494801996" target="_blank" class="social-btn tiktok" aria-label="Tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
 
-        </section>
+            <a href="https://www.instagram.com/myfaiththrives/" target="_blank" class="social-btn instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.threads.net/@myfaiththrives" target="_blank" class="social-btn threads" aria-label="Threads">
+                <i class="fab fa-threads"></i>
+            </a>
+            <a href="https://pinterest.com/myfaiththrives/" target="_blank" class="social-btn pinterest" aria-label="Pinterest">
+                <i class="fab fa-pinterest"></i>
+            </a>
+            <a href="https://x.com/MyFaithThrives" target="_blank" class="social-btn x former twitter" aria-label="X Former Twitter ">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/myfaith-thrives-392418352/" target="_blank" class="social-btn linkedin" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://snapchat.com/t/famUcKud" target="_blank" class="social-btn snapchat" aria-label="Snapchat">
+                <i class="fab fa-snapchat-ghost"></i>
+            </a>
+        </div>
+    </div>
 
-        <section id="photo-albums" class="category">
-            <h2>Photo Albums</h2>
-            <div class="product">
-                <img src="placeholder-album.jpg" alt="Photo Album 1">
-                <h3>Photo Album Title 1</h3>
-                <p>Description of album 1.</p>
-                 <a href="mailto:youremail@example.com?subject=Inquiry about Photo Album 1">Inquire</a>
-            </div>
-        </section>
-        <section id="clothes" class="category">
-           <h2>Clothes</h2>
-            <div class="product">
+</main>
 
-                <img src="placeholder-clothes.jpg" alt="Clothes 1">
-                <h3>Clothes 1</h3>
-                <p>Description of clothes item 1.</p>
-               <a href="mailto:youremail@example.com?subject=Inquiry about Clothe item 1">Inquire</a>
-            </div>
+<footer>
+    <p>&copy; 2025 MyFaithThrives. All rights reserved.</p>
+</footer>
 
-       </section>
-       <section id="jewelry" class="category">
-           <h2>Jewelry</h2>
-            <div class="product">
-                <img src="placeholder-jewelry.jpg" alt="Jewelry 1">
-                <h3>Jewelry 1</h3>
-                <p>Description of jewerly item 1.</p>
-              <a href="mailto:youremail@example.com?subject=Inquiry about Jewelry item 1">Inquire</a>
-            </div>
-        </section>
-    </main>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".hamburger");
+        const navbar = document.querySelector(".navbar");
 
-    <footer>
-        <p>© 2024 myfaiththrives. All rights reserved. <a href="mailto:youremail@example.com">Contact Us</a></p>
-    </footer>
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navbar.classList.toggle("active");
+        });
+    });
+</script>
 </body>
 </html>
