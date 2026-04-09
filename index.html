@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFaithThrives</title>
+    <title>MyFaithThrives – Faith, Hope & Community</title>
+    <meta name="description" content="MyFaithThrives – Inspiring articles, posts, reels and a faith-filled community. Stay connected and let your faith thrive.">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
@@ -15,77 +16,364 @@
     <link rel="manifest" href="images/favicon/site.webmanifest">
 </head>
 <body>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
 <header>
     <div class="header-container">
-        <h1 class="logo">MyFaithThrives</h1>
-        <button class="hamburger" aria-label="Toggle Navigation">
+        <a href="index.html" class="logo" aria-label="MyFaithThrives Home">MyFaithThrives</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </button>
-        <nav class="navbar">
+        <nav class="navbar" id="main-navbar">
             <ul class="nav-menu">
-                <li><a href="#books">Books</a></li>
-                <li><a href="#art">Art</a></li>
-                <li><a href="#photo-albums">Photo Albums</a></li>
-                <li><a href="#clothes">Clothes</a></li>
-                <li><a href="#jewelry">Jewelry</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#reels">Reels & Shorts</a></li>
+                <li><a href="#connect">Connect</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="store.html" class="nav-store-btn">Store</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
 <main>
-    <div class="coming-soon">
-        <h3>🌿 Coming Soon 🌿</h3>
-        <p class="scripture">"The Lord is good to those whose hope is in Him, to the one who seeks Him." <br> — Lamentations 3:25</p>
-        <p>Something wonderful is on its way. Stay expectant, stay hopeful. His plans are greater than we can imagine.</p>
-<br>
-        <p>Follow us on social media & show your support</p>
-        <div class="social-icons">
-<!--            <a href="https://www.facebook.com/profile.php?id=61573263993842" target="_blank" class="social-btn facebook" aria-label="Facebook">-->
-<!--                <i class="fab fa-facebook-f"></i>-->
-<!--            </a>-->
 
-            <a href="https://www.tiktok.com/@user8269494801996" target="_blank" class="social-btn tiktok" aria-label="Tiktok">
-                <i class="fab fa-tiktok"></i>
-            </a>
-
-            <a href="https://www.instagram.com/myfaiththrives/" target="_blank" class="social-btn instagram" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.threads.net/@myfaiththrives" target="_blank" class="social-btn threads" aria-label="Threads">
-                <i class="fab fa-threads"></i>
-            </a>
-            <a href="https://pinterest.com/myfaiththrives/" target="_blank" class="social-btn pinterest" aria-label="Pinterest">
-                <i class="fab fa-pinterest"></i>
-            </a>
-            <a href="https://x.com/MyFaithThrives" target="_blank" class="social-btn x former twitter" aria-label="X Former Twitter ">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/myfaith-thrives-392418352/" target="_blank" class="social-btn linkedin" aria-label="LinkedIn">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://snapchat.com/t/famUcKud" target="_blank" class="social-btn snapchat" aria-label="Snapchat">
-                <i class="fab fa-snapchat-ghost"></i>
-            </a>
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <span class="hero-tag">🌿 Coming Soon 🌿</span>
+            <h2 class="hero-title">Let Your Faith Thrive</h2>
+            <p class="hero-scripture">"The Lord is good to those whose hope is in Him, to the one who seeks Him."<br><em>— Lamentations 3:25</em></p>
+            <p class="hero-sub">Something wonderful is on its way. Stay expectant, stay hopeful. His plans are greater than we can imagine.</p>
+            <a href="#newsletter" class="cta-btn">Stay Updated</a>
         </div>
-    </div>
+    </section>
+
+    <!-- ═══════════════ ARTICLES ═══════════════ -->
+    <section class="section" id="articles">
+        <div class="section-header">
+            <span class="section-tag">📖 Read</span>
+            <h2 class="section-title">Articles</h2>
+            <p class="section-sub">Deep dives into faith, scripture and everyday life — coming soon.</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card placeholder-card">
+                <!-- Local: Open Bible -->
+                <img class="card-img" src="images/faith/bible.jpg" alt="Open Bible" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title">Faith Foundations</h3>
+                    <p class="card-desc">Exploring the pillars of Christian faith and how they shape our daily walk.</p>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+            <div class="card placeholder-card">
+                <!-- Local: Praying hands -->
+                <img class="card-img" src="images/faith/prayer.jpg" alt="Praying hands" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title">Prayer &amp; Devotion</h3>
+                    <p class="card-desc">Practical guides and reflections on deepening your prayer life.</p>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+            <div class="card placeholder-card">
+                <!-- Local: Sunrise path -->
+                <img class="card-img" src="images/faith/sunrise-path.jpg" alt="Sunrise mountain path" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title">Living with Purpose</h3>
+                    <p class="card-desc">Discovering God's calling and walking boldly in your purpose.</p>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ POSTS ═══════════════ -->
+    <section class="section section-alt" id="posts">
+        <div class="section-header">
+            <span class="section-tag">💬 Share</span>
+            <h2 class="section-title">Posts</h2>
+            <p class="section-sub">Quick thoughts, scripture shares and community moments — dropping soon.</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card placeholder-card">
+                <!-- Local: Golden sunrise -->
+                <img class="card-img" src="images/faith/sunrise.jpg" alt="Sunrise landscape" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title">Daily Encouragement</h3>
+                    <p class="card-desc">Start every morning with a word of hope and truth from scripture.</p>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+            <div class="card placeholder-card">
+                <!-- Local: Handwritten scripture -->
+                <img class="card-img" src="images/faith/scripture.jpg" alt="Handwritten scripture" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title">Verse of the Week</h3>
+                    <p class="card-desc">A featured verse to meditate on and carry through your week.</p>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+            <div class="card placeholder-card">
+                <!-- Local: Community hands -->
+                <img class="card-img" src="images/faith/community.jpg" alt="Community together" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title">Community Stories</h3>
+                    <p class="card-desc">Real testimonies and faith journeys from our growing community.</p>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ REELS & SHORTS ═══════════════ -->
+    <section class="section" id="reels">
+        <div class="section-header">
+            <span class="section-tag">🎬 Watch</span>
+            <h2 class="section-title">Reels &amp; Shorts</h2>
+            <p class="section-sub">Short-form faith content to inspire, encourage and uplift — launching soon.</p>
+        </div>
+        <div class="reels-grid">
+            <div class="reel-card">
+                <div class="reel-thumb">
+                    <i class="fab fa-tiktok reel-platform-icon"></i>
+                    <div class="reel-play"><i class="fas fa-play"></i></div>
+                </div>
+                <p class="reel-label">TikTok Shorts</p>
+                <a href="https://www.tiktok.com/@user8269494801996" target="_blank" class="reel-link">Follow on TikTok →</a>
+            </div>
+            <div class="reel-card">
+                <div class="reel-thumb reel-thumb-ig">
+                    <i class="fab fa-instagram reel-platform-icon"></i>
+                    <div class="reel-play"><i class="fas fa-play"></i></div>
+                </div>
+                <p class="reel-label">Instagram Reels</p>
+                <a href="https://www.instagram.com/myfaiththrives/" target="_blank" class="reel-link">Follow on Instagram →</a>
+            </div>
+            <div class="reel-card">
+                <div class="reel-thumb reel-thumb-yt">
+                    <i class="fab fa-youtube reel-platform-icon"></i>
+                    <div class="reel-play"><i class="fas fa-play"></i></div>
+                </div>
+                <p class="reel-label">YouTube Shorts</p>
+                <a href="https://www.youtube.com/@MyFaithThrives" target="_blank" class="reel-link">Subscribe on YouTube →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ CONNECT / SOCIALS ═══════════════ -->
+    <section class="section section-alt" id="connect">
+        <div class="section-header">
+            <span class="section-tag">🌐 Follow</span>
+            <h2 class="section-title">Find Us Everywhere</h2>
+            <p class="section-sub">We're active across all major platforms — pick your favourite and join the community.</p>
+        </div>
+        <div class="socials-showcase">
+
+            <a href="https://www.facebook.com/profile.php?id=61573263993842" target="_blank" class="social-card facebook-card" aria-label="Facebook">
+                <i class="fab fa-facebook-f social-card-icon"></i>
+                <span class="social-card-name">Facebook</span>
+                <span class="social-card-action">Like our Page</span>
+            </a>
+
+            <a href="https://www.tiktok.com/@user8269494801996" target="_blank" class="social-card tiktok-card" aria-label="TikTok">
+                <i class="fab fa-tiktok social-card-icon"></i>
+                <span class="social-card-name">TikTok</span>
+                <span class="social-card-action">Follow &amp; Watch</span>
+            </a>
+
+            <a href="https://www.instagram.com/myfaiththrives/" target="_blank" class="social-card instagram-card" aria-label="Instagram">
+                <i class="fab fa-instagram social-card-icon"></i>
+                <span class="social-card-name">Instagram</span>
+                <span class="social-card-action">Follow Us</span>
+            </a>
+
+            <a href="https://www.threads.net/@myfaiththrives" target="_blank" class="social-card threads-card" aria-label="Threads">
+                <i class="fab fa-threads social-card-icon"></i>
+                <span class="social-card-name">Threads</span>
+                <span class="social-card-action">Join the Conversation</span>
+            </a>
+
+            <a href="https://pinterest.com/myfaiththrives/" target="_blank" class="social-card pinterest-card" aria-label="Pinterest">
+                <i class="fab fa-pinterest social-card-icon"></i>
+                <span class="social-card-name">Pinterest</span>
+                <span class="social-card-action">Save &amp; Inspire</span>
+            </a>
+
+            <a href="https://x.com/MyFaith_Thrives" target="_blank" class="social-card x-card" aria-label="X (Twitter)">
+                <i class="fa-brands fa-x-twitter social-card-icon"></i>
+                <span class="social-card-name">X (Twitter)</span>
+                <span class="social-card-action">Follow &amp; Share</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/myfaith-thrives-392418352/" target="_blank" class="social-card linkedin-card" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in social-card-icon"></i>
+                <span class="social-card-name">LinkedIn</span>
+                <span class="social-card-action">Connect with Us</span>
+            </a>
+
+            <a href="https://snapchat.com/t/famUcKud" target="_blank" class="social-card snapchat-card" aria-label="Snapchat">
+                <i class="fab fa-snapchat-ghost social-card-icon"></i>
+                <span class="social-card-name">Snapchat</span>
+                <span class="social-card-action">Add Us</span>
+            </a>
+
+            <a href="https://whatsapp.com/channel/0029VbCbQdX2UPBAMTttv30t" target="_blank" class="social-card whatsapp-card" aria-label="WhatsApp Channel">
+                <i class="fab fa-whatsapp social-card-icon"></i>
+                <span class="social-card-name">WhatsApp</span>
+                <span class="social-card-action">Join Our Channel</span>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════ NEWSLETTER ═══════════════ -->
+    <section class="section" id="newsletter">
+        <div class="newsletter-box">
+            <span class="section-tag">✉️ Stay Connected</span>
+            <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+            <p class="newsletter-sub">Get the latest articles, devotionals and community updates delivered straight to your inbox. No spam — only faith.</p>
+            <form class="newsletter-form" id="newsletter-form" novalidate>
+                <div class="form-row">
+                    <input type="text" id="nl-name" class="nl-input" placeholder="Your Name" aria-label="Your Name" required>
+                    <input type="email" id="nl-email" class="nl-input" placeholder="Your Email Address" aria-label="Email Address" required>
+                    <button type="submit" class="nl-btn" id="nl-submit-btn">Subscribe</button>
+                </div>
+                <p class="nl-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
+                <p class="nl-success" id="nl-success" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
 
 </main>
 
+<!-- ═══════════════ FOOTER ═══════════════ -->
 <footer>
-    <p>&copy; 2025 MyFaithThrives. All rights reserved.</p>
+    <div class="footer-top">
+        <div class="footer-grid">
+
+            <!-- Col 1: Brand -->
+            <div class="footer-col footer-col-brand">
+                <p class="footer-logo">MyFaithThrives</p>
+                <p class="footer-tagline">"The Lord is good to those whose hope is in Him."<br><em>— Lamentations 3:25</em></p>
+                <p class="footer-desc">A faith-filled community sharing articles, devotionals, reels and more. Let your faith thrive.</p>
+            </div>
+
+            <!-- Col 2: Quick Links -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#articles">Articles</a></li>
+                    <li><a href="index.html#posts">Posts</a></li>
+                    <li><a href="index.html#reels">Reels &amp; Shorts</a></li>
+                    <li><a href="index.html#connect">Connect</a></li>
+                    <li><a href="index.html#newsletter">Newsletter</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Follow Us -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Follow Us</h4>
+                <div class="footer-socials-grid">
+                    <a href="https://www.facebook.com/profile.php?id=61573263993842" target="_blank" class="footer-social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://www.tiktok.com/@user8269494801996" target="_blank" class="footer-social-link" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i> TikTok
+                    </a>
+                    <a href="https://www.instagram.com/myfaiththrives/" target="_blank" class="footer-social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://www.threads.net/@myfaiththrives" target="_blank" class="footer-social-link" aria-label="Threads">
+                        <i class="fab fa-threads"></i> Threads
+                    </a>
+                    <a href="https://pinterest.com/myfaiththrives/" target="_blank" class="footer-social-link" aria-label="Pinterest">
+                        <i class="fab fa-pinterest"></i> Pinterest
+                    </a>
+                    <a href="https://x.com/MyFaith_Thrives" target="_blank" class="footer-social-link" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i> X (Twitter)
+                    </a>
+                    <a href="https://www.linkedin.com/in/myfaith-thrives-392418352/" target="_blank" class="footer-social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://snapchat.com/t/famUcKud" target="_blank" class="footer-social-link" aria-label="Snapchat">
+                        <i class="fab fa-snapchat-ghost"></i> Snapchat
+                    </a>
+                    <a href="https://whatsapp.com/channel/0029VbCbQdX2UPBAMTttv30t" target="_blank" class="footer-social-link" aria-label="WhatsApp Channel">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Col 4: Stay Connected -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Stay Connected</h4>
+                <p class="footer-connect-text">Get faith-filled content delivered to your inbox. No spam, ever.</p>
+                <a href="#newsletter" class="footer-subscribe-btn">Subscribe Free</a>
+                <div class="footer-divider-sm"></div>
+                <p class="footer-liora-col">Part of</p>
+                <a href="https://askhope.github.io/lioralanding/" target="_blank" rel="noopener noreferrer" class="footer-liora-link" aria-label="Liora Media">
+                    <span class="footer-liora-name">Liora Media</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <p class="footer-copy">&copy; 2026 MyFaithThrives. All rights reserved.</p>
+            <p class="footer-liora-inline">Part of <a href="https://askhope.github.io/lioralanding/" target="_blank" rel="noopener noreferrer">Liora Media</a></p>
+        </div>
+    </div>
 </footer>
 
 <script>
+    // ── Hamburger toggle ──
     document.addEventListener("DOMContentLoaded", () => {
-        const hamburger = document.querySelector(".hamburger");
-        const navbar = document.querySelector(".navbar");
+        const hamburger = document.getElementById("hamburger-btn");
+        const navbar    = document.getElementById("main-navbar");
 
         hamburger.addEventListener("click", () => {
             hamburger.classList.toggle("active");
             navbar.classList.toggle("active");
+        });
+
+        // Close menu when a nav link is clicked
+        document.querySelectorAll(".nav-menu a").forEach(link => {
+            link.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navbar.classList.remove("active");
+            });
+        });
+
+        // ── Newsletter form ──
+        const form    = document.getElementById("newsletter-form");
+        const success = document.getElementById("nl-success");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const name  = document.getElementById("nl-name").value.trim();
+            const email = document.getElementById("nl-email").value.trim();
+
+            if (!name || !email) {
+                success.textContent = "⚠️ Please fill in both fields.";
+                success.style.color = "#e87676";
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                success.textContent = "⚠️ Please enter a valid email address.";
+                success.style.color = "#e87676";
+                return;
+            }
+
+            success.textContent = `🙏 Thank you, ${name}! You're on the list. God bless you!`;
+            success.style.color = "#7ecb9b";
+            form.reset();
         });
     });
 </script>

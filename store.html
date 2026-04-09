@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store – MyFaithThrives</title>
+    <meta name="description" content="Shop faith-inspired merchandise from MyFaithThrives — books, art, apparel, jewellery and more. Coming soon.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+<body>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo" aria-label="MyFaithThrives Home">MyFaithThrives</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="navbar" id="main-navbar">
+            <ul class="nav-menu">
+                <li><a href="index.html#articles">Articles</a></li>
+                <li><a href="index.html#posts">Posts</a></li>
+                <li><a href="index.html#reels">Reels &amp; Shorts</a></li>
+                <li><a href="index.html#connect">Connect</a></li>
+                <li><a href="index.html#newsletter">Newsletter</a></li>
+                <li><a href="store.html" class="nav-store-btn" aria-current="page">Store</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- ═══════════════ STORE HERO ═══════════════ -->
+    <section class="store-hero">
+        <div class="store-hero-content">
+            <span class="hero-tag">🛍️ Shop With Purpose</span>
+            <h1 class="store-hero-title">The MyFaithThrives Store</h1>
+            <p class="store-hero-sub">Faith-inspired products crafted to uplift, remind and encourage. Our store is being lovingly prepared — sign up to be the first to know when it opens.</p>
+            <a href="index.html#newsletter" class="cta-btn">Notify Me When Open</a>
+        </div>
+    </section>
+
+    <!-- ═══════════════ COMING SOON BANNER ═══════════════ -->
+    <section class="store-banner">
+        <div class="store-banner-inner">
+            <div class="store-banner-icon">🌿</div>
+            <div>
+                <h2 class="store-banner-title">Opening Soon</h2>
+                <p class="store-banner-text">We're handpicking every item with care and intention. Subscribe to our newsletter and you'll be the first to shop when the doors open.</p>
+            </div>
+            <a href="index.html#newsletter" class="cta-btn store-banner-btn">Get Early Access</a>
+        </div>
+    </section>
+
+    <!-- ═══════════════ CATEGORIES ═══════════════ -->
+    <section class="section" id="categories">
+        <div class="section-header">
+            <span class="section-tag">📦 What's Coming</span>
+            <h2 class="section-title">Product Categories</h2>
+            <p class="section-sub">Everything in the store is chosen to strengthen your faith, inspire your home and express your love for God.</p>
+        </div>
+        <div class="store-categories">
+
+            <div class="store-cat-card">
+                <div class="store-cat-icon">📚</div>
+                <h3 class="store-cat-title">Books</h3>
+                <p class="store-cat-desc">Faith-building reads — devotionals, study guides, inspirational titles and more.</p>
+                <span class="store-cat-badge">Coming Soon</span>
+            </div>
+
+            <div class="store-cat-card">
+                <div class="store-cat-icon">🎨</div>
+                <h3 class="store-cat-title">Art &amp; Prints</h3>
+                <p class="store-cat-desc">Scripture art and faith-inspired prints to transform your home into a place of peace.</p>
+                <span class="store-cat-badge">Coming Soon</span>
+            </div>
+
+            <div class="store-cat-card">
+                <div class="store-cat-icon">📸</div>
+                <h3 class="store-cat-title">Photo Albums</h3>
+                <p class="store-cat-desc">Beautifully designed albums to capture and cherish your most precious faith moments.</p>
+                <span class="store-cat-badge">Coming Soon</span>
+            </div>
+
+            <div class="store-cat-card">
+                <div class="store-cat-icon">👕</div>
+                <h3 class="store-cat-title">Apparel</h3>
+                <p class="store-cat-desc">Wear your faith. T-shirts, hoodies and more with meaningful scripture and design.</p>
+                <span class="store-cat-badge">Coming Soon</span>
+            </div>
+
+            <div class="store-cat-card">
+                <div class="store-cat-icon">💍</div>
+                <h3 class="store-cat-title">Jewellery</h3>
+                <p class="store-cat-desc">Handcrafted faith jewellery — crosses, scripture rings and inspirational pieces.</p>
+                <span class="store-cat-badge">Coming Soon</span>
+            </div>
+
+            <div class="store-cat-card">
+                <div class="store-cat-icon">🕯️</div>
+                <h3 class="store-cat-title">Home &amp; Gifts</h3>
+                <p class="store-cat-desc">Faith-filled gifts for every occasion — candles, mugs, cards and thoughtful keepsakes.</p>
+                <span class="store-cat-badge">Coming Soon</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════ NOTIFY CTA ═══════════════ -->
+    <section class="section section-alt" id="store-notify">
+        <div class="newsletter-box">
+            <span class="section-tag">✉️ Be the First to Know</span>
+            <h2 class="newsletter-title">Get Notified When We Launch</h2>
+            <p class="newsletter-sub">Drop your email below and we'll alert you the moment the store goes live. Plus get an exclusive early-bird discount.</p>
+            <form class="newsletter-form" id="store-notify-form" novalidate>
+                <div class="form-row">
+                    <input type="text" id="sn-name" class="nl-input" placeholder="Your Name" aria-label="Your Name" required>
+                    <input type="email" id="sn-email" class="nl-input" placeholder="Your Email Address" aria-label="Email Address" required>
+                    <button type="submit" class="nl-btn" id="sn-submit-btn">Notify Me</button>
+                </div>
+                <p class="nl-note">🔒 We respect your privacy. Unsubscribe anytime.</p>
+                <p class="nl-success" id="sn-success" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer>
+    <div class="footer-top">
+        <div class="footer-grid">
+
+            <!-- Col 1: Brand -->
+            <div class="footer-col footer-col-brand">
+                <p class="footer-logo">MyFaithThrives</p>
+                <p class="footer-tagline">"The Lord is good to those whose hope is in Him."<br><em>— Lamentations 3:25</em></p>
+                <p class="footer-desc">A faith-filled community sharing articles, devotionals, reels and more. Let your faith thrive.</p>
+            </div>
+
+            <!-- Col 2: Quick Links -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#articles">Articles</a></li>
+                    <li><a href="index.html#posts">Posts</a></li>
+                    <li><a href="index.html#reels">Reels &amp; Shorts</a></li>
+                    <li><a href="index.html#connect">Connect</a></li>
+                    <li><a href="index.html#newsletter">Newsletter</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Follow Us -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Follow Us</h4>
+                <div class="footer-socials-grid">
+                    <a href="https://www.facebook.com/profile.php?id=61573263993842" target="_blank" class="footer-social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="https://www.tiktok.com/@user8269494801996" target="_blank" class="footer-social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i> TikTok</a>
+                    <a href="https://www.instagram.com/myfaiththrives/" target="_blank" class="footer-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://www.threads.net/@myfaiththrives" target="_blank" class="footer-social-link" aria-label="Threads"><i class="fab fa-threads"></i> Threads</a>
+                    <a href="https://pinterest.com/myfaiththrives/" target="_blank" class="footer-social-link" aria-label="Pinterest"><i class="fab fa-pinterest"></i> Pinterest</a>
+                    <a href="https://x.com/MyFaith_Thrives" target="_blank" class="footer-social-link" aria-label="X"><i class="fa-brands fa-x-twitter"></i> X (Twitter)</a>
+                    <a href="https://www.linkedin.com/in/myfaith-thrives-392418352/" target="_blank" class="footer-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://snapchat.com/t/famUcKud" target="_blank" class="footer-social-link" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i> Snapchat</a>
+                    <a href="https://whatsapp.com/channel/0029VbCbQdX2UPBAMTttv30t" target="_blank" class="footer-social-link" aria-label="WhatsApp Channel"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Col 4: Stay Connected -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Stay Connected</h4>
+                <p class="footer-connect-text">Get faith-filled content delivered to your inbox. No spam, ever.</p>
+                <a href="index.html#newsletter" class="footer-subscribe-btn">Subscribe Free</a>
+                <div class="footer-divider-sm"></div>
+                <p class="footer-liora-col">Part of</p>
+                <a href="https://askhope.github.io/lioralanding/" target="_blank" rel="noopener noreferrer" class="footer-liora-link" aria-label="Liora Media">
+                    <span class="footer-liora-name">Liora Media</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <p class="footer-copy">&copy; 2026 MyFaithThrives. All rights reserved.</p>
+            <p class="footer-liora-inline">Part of <a href="https://askhope.github.io/lioralanding/" target="_blank" rel="noopener noreferrer">Liora Media</a></p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // ── Hamburger toggle ──
+    document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.getElementById("hamburger-btn");
+        const navbar    = document.getElementById("main-navbar");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navbar.classList.toggle("active");
+        });
+
+        document.querySelectorAll(".nav-menu a").forEach(link => {
+            link.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navbar.classList.remove("active");
+            });
+        });
+
+        // ── Store notify form ──
+        const form    = document.getElementById("store-notify-form");
+        const success = document.getElementById("sn-success");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const name  = document.getElementById("sn-name").value.trim();
+            const email = document.getElementById("sn-email").value.trim();
+
+            if (!name || !email) {
+                success.textContent = "⚠️ Please fill in both fields.";
+                success.style.color = "#e87676";
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                success.textContent = "⚠️ Please enter a valid email address.";
+                success.style.color = "#e87676";
+                return;
+            }
+
+            success.textContent = `🙏 You're on the list, ${name}! We'll let you know the moment we launch.`;
+            success.style.color = "#7ecb9b";
+            form.reset();
+        });
+    });
+</script>
+</body>
+</html>
